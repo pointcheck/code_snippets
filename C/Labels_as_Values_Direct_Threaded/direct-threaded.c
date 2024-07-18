@@ -16,7 +16,7 @@ int8_t data0 = 0x31;
 int32_t data1 = 0x01234567;
 int32_t data2 = 0x76543210;
 int64_t data3 = 0xABCD000076543210;
-char *data4 = "Hello, world";
+char *data4 = (char*)"Hello, world";
 
 int main() {
 
