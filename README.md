@@ -1,5 +1,7 @@
 # Collection of code snippets for everyday use
 
+## ./C/ErrorHandling - Handle multiple errors with errno
+
 ## ./C/Labels_as_Values_Direct_Threaded - GCC Labels as Values
 
 Allows implementing efficient interpretters or VMs. Each command (operation) should be
