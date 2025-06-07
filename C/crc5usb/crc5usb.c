@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define REV_POLYNOMIAL	0x14 // Reversed polynomial: 0b00101
+
 unsigned char crc5usb(unsigned short input)
 {
 	unsigned char res = 0x1f;
@@ -13,7 +15,7 @@ unsigned char crc5usb(unsigned short input)
 		b = (input ^ res) & 1;
 		input >>= 1;
 		if (b) {
-			res = (res >> 1) ^ 0x14;	/* 10100 */
+			res = (res >> 1) ^ REV_POLYNOMIAL; /* 10100 */
 		} else {
 			res = (res >> 1);
 		}
