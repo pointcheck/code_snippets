@@ -20,6 +20,9 @@ FreeBSD: works both methods through dead pointer and through function call.
 
 Linux: access through function call only works, access through dead pointer segfaults.
 
+## ./C/main_as_array - it's possible to define **main** symbol as an array and put machine code in it
+
 
 ## ./Verilog/FreqDIV - Frequency divider and simulation test bench
+
 
