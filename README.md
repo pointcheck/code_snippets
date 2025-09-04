@@ -12,16 +12,17 @@ Reference: https://gcc.gnu.org/onlinedocs/gcc/Labels-as-Values.html
 
 ### Update
 
-Code snipped was extended to support one operand per opration, its type depends on the op.
+Code snipped was extended to support one operand per operation, its type depends on the op.
 
-## ./C/StackViolation - access to values on stack referenced by dead pointer
+## ./C/StackViolation - Access to values on stack referenced by dead pointer
 
 FreeBSD: works both methods through dead pointer and through function call.
 
 Linux: access through function call only works, access through dead pointer segfaults.
 
-## ./C/main_as_array - it's possible to define **main** symbol as an array and put machine code in it
+## ./C/main_as_array - It's possible to define **main** symbol as an array and put machine code in it
 
+## /C/BufferOverflow - Examples of buffer overflow bugs and how to catch them 
 
 ## ./Verilog/FreqDIV - Frequency divider and simulation test bench
 
