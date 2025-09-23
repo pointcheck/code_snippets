@@ -26,4 +26,8 @@ Linux: access through function call only works, access through dead pointer segf
 
 ## ./Verilog/FreqDIV - Frequency divider and simulation test bench
 
+## ./Shell/SIXEL - Show "HI" in terminal using SIXEL graphics mode
+
+Details are here: https://en.wikipedia.org/wiki/Sixel
+
 
