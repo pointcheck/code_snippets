@@ -18,11 +18,13 @@ Code snipped was extended to support one operand per operation, its type depends
 
 FreeBSD: works both methods through dead pointer and through function call.
 
-Linux: access through function call only works, access through dead pointer segfaults.
+Linux: access through function call only works, access through dead pointer make it segfaults.
 
 ## ./C/main_as_array - It's possible to define **main** symbol as an array and put machine code in it
 
-## /C/BufferOverflow - Examples of buffer overflow bugs and how to catch them 
+## ./C/BufferOverflow - Examples of buffer overflow bugs and how to catch them 
+
+## ./C/BranchlessProgramming - Branchless implementation of abs(), clamp() and partition()
 
 ## ./Verilog/FreqDIV - Frequency divider and simulation test bench
 
