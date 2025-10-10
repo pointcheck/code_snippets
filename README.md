@@ -20,11 +20,17 @@ FreeBSD: works both methods through dead pointer and through function call.
 
 Linux: access through function call only works, access through dead pointer make it segfaults.
 
+
 ## ./C/main_as_array - It's possible to define **main** symbol as an array and put machine code in it
 
 ## ./C/BufferOverflow - Examples of buffer overflow bugs and how to catch them 
 
 ## ./C/BranchlessProgramming - Branchless implementation of abs(), clamp() and partition()
+
+Derived from: https://sanixdk.xyz/blogs/the-weird-concept-of-branchless-programming
+
+
+## ./C/Quine - Quine in C, a simple self-reproducable C program
 
 ## ./Verilog/FreqDIV - Frequency divider and simulation test bench
 
