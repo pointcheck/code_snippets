@@ -32,6 +32,11 @@ Derived from: https://sanixdk.xyz/blogs/the-weird-concept-of-branchless-programm
 
 ## ./C/Quine - Quine in C, a simple self-reproducable C program
 
+## ./C/goto_iterator - Interate using goto
+
+Derived from: https://xavierleroy.org/control-structures/book/main006.html
+
+
 ## ./Verilog/FreqDIV - Frequency divider and simulation test bench
 
 ## ./Shell/SIXEL - Show "HI" in terminal using SIXEL graphics mode
