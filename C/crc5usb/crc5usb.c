@@ -1,4 +1,4 @@
-// Cortesy: https://electronics.stackexchange.com/questions/718294/how-is-crc5-calculated-in-detail-for-a-usb-token
+// Courtesy: https://electronics.stackexchange.com/questions/718294/how-is-crc5-calculated-in-detail-for-a-usb-token
 
 #include <stdio.h>
 #include <stdlib.h>
