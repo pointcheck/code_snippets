@@ -29,6 +29,8 @@ Linux: access through function call only works, access through dead pointer make
 
 Derived from: https://sanixdk.xyz/blogs/the-weird-concept-of-branchless-programming
 
+ - [./C/FreeBSD_gprof](./C/FreeBSD_gprof) - Profiling C programs on FreeBSD using gprof
+
 
  - [./C/Quine](./C/Quine) - Quine in C, a simple self-reproducable C program
 
