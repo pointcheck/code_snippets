@@ -50,4 +50,5 @@ Derived from: https://gist.github.com/rexim/ef86bf70918034a5a57881456c0a0ccf
 
 Details are here: https://en.wikipedia.org/wiki/Sixel
 
+ - [./RV64I/load_64_bit_constant/](./RV64I/load_64_bit_constant) - RV64I assembly code to put arbitrary 64-bit constant in register 
 
