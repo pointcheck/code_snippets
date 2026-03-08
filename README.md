@@ -43,6 +43,8 @@ Derived from: https://xavierleroy.org/control-structures/book/main006.html
 
 Derived from: https://gist.github.com/rexim/ef86bf70918034a5a57881456c0a0ccf
 
+ - [./C/Preload](./C/Preload) - How to use LD_PRELOAD to substitute system library function, namely malloc(). 
+
 
  - [./Verilog/FreqDIV](./Verilog/FreqDIV) - Frequency divider and simulation test bench
 
