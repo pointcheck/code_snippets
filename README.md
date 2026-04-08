@@ -16,9 +16,9 @@ Code snipped was extended to support one operand per operation, its type depends
 
  - [./C/StackViolation](./C/StackViolation) - Access to values on stack referenced by dead pointer
 
-FreeBSD: works both methods through dead pointer and through function call.
+	FreeBSD: works both methods through dead pointer and through function call.
 
-Linux: access through function call only works, access through dead pointer make it segfaults.
+	Linux: access through function call only works, access through dead pointer make it segfaults.
 
 
  - [./C/main_as_array](./C/main_as_array) - It's possible to define **main** symbol as an array and put machine code in it
@@ -27,7 +27,7 @@ Linux: access through function call only works, access through dead pointer make
 
  - [./C/BranchlessProgramming](./C/BranchlessProgramming) - Branchless implementation of abs(), clamp() and partition()
 
-Derived from: https://sanixdk.xyz/blogs/the-weird-concept-of-branchless-programming
+	Derived from: https://sanixdk.xyz/blogs/the-weird-concept-of-branchless-programming
 
  - [./C/FreeBSD_gprof](./C/FreeBSD_gprof) - Profiling C programs on FreeBSD using gprof
 
@@ -36,25 +36,26 @@ Derived from: https://sanixdk.xyz/blogs/the-weird-concept-of-branchless-programm
 
  - [./C/goto_iterator](./C/goto_iterator) - Interate using goto
 
-Derived from: https://xavierleroy.org/control-structures/book/main006.html
+	Derived from: https://xavierleroy.org/control-structures/book/main006.html
 
 
  - [./C/Plasma](./C/Plasma) - Simple shader in C++ on CPU. 
 
-Derived from: https://gist.github.com/rexim/ef86bf70918034a5a57881456c0a0ccf
+	Derived from: https://gist.github.com/rexim/ef86bf70918034a5a57881456c0a0ccf
 
  - [./C/Preload](./C/Preload) - How to use LD_PRELOAD to substitute system library function, namely malloc(). 
 
  - [./C/Gtk3Hello](./C/Gtk3Hello) - Display empty windows using GTK3 toolkit.
 
-Derived from: https://docs.gtk.org/gtk3/getting_started.html
+	Derived from: https://docs.gtk.org/gtk3/getting_started.html
 
+ - [./DynamicArrays/](./DynamicArrays/) - Dynamic Arrays in pure C.
 
  - [./Verilog/FreqDIV](./Verilog/FreqDIV) - Frequency divider and simulation test bench
 
  - [./Shell/SIXEL](./Shell/SIXEL) - Show "HI" in terminal using SIXEL graphics mode
 
-Details are here: https://en.wikipedia.org/wiki/Sixel
+	Details are here: https://en.wikipedia.org/wiki/Sixel
 
  - [./RV64I/load_64_bit_constant/](./RV64I/load_64_bit_constant) - RV64I assembly code to put arbitrary 64-bit constant in register 
 
