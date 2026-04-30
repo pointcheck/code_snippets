@@ -49,6 +49,10 @@ Code snipped was extended to support one operand per operation, its type depends
 
 	Derived from: https://docs.gtk.org/gtk3/getting_started.html
 
+ - [./C/FreeBSD_Simple_Driver](./C/FreeBSD_Simple_Driver) - Simple Kernel Module (Driver) for FreeBSD
+
+	Derived from Edson Brandi's "FreeBSD Device Drivers" book.
+
  - [./DynamicArrays/](./DynamicArrays/) - Dynamic Arrays in pure C.
 
  - [./Verilog/FreqDIV](./Verilog/FreqDIV) - Frequency divider and simulation test bench
