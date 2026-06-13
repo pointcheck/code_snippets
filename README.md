@@ -49,6 +49,10 @@ Code snipped was extended to support one operand per operation, its type depends
 
 	Derived from: https://docs.gtk.org/gtk3/getting_started.html
 
+ - [./C/BSDMake](./C/BSDMake) - Playing with BSD Make.
+
+	Induced by article: https://docs-archive.freebsd.org/44doc/psd/12.make/paper.pdf
+
  - [./C/FreeBSD_Simple_Driver](./C/FreeBSD_Simple_Driver) - Simple Kernel Module (Driver) for FreeBSD
 
 	Derived from Edson Brandi's "FreeBSD Device Drivers" book.
