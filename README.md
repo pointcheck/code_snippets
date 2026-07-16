@@ -53,6 +53,8 @@ Code snipped was extended to support one operand per operation, its type depends
 
 	Induced by article: https://docs-archive.freebsd.org/44doc/psd/12.make/paper.pdf
 
+ - [./C/printf_hack](./C/printf_hack) - Using printf("%n") to write to arbitrari memory.
+
  - [./C/FreeBSD_Simple_Driver](./C/FreeBSD_Simple_Driver) - Simple Kernel Module (Driver) for FreeBSD
 
 	Derived from Edson Brandi's "FreeBSD Device Drivers" book.
