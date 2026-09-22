@@ -59,6 +59,10 @@ Code snipped was extended to support one operand per operation, its type depends
 
 	Derived from Edson Brandi's "FreeBSD Device Drivers" book.
 
+ - [./C/relf](./C/relf) - Use LIBELF (-lelf) to parse ELF files
+
+	Only a handful lines of code to enumerate ELF sections and print symbols.
+
  - [./DynamicArrays/](./DynamicArrays/) - Dynamic Arrays in pure C.
 
  - [./Verilog/FreqDIV](./Verilog/FreqDIV) - Frequency divider and simulation test bench
